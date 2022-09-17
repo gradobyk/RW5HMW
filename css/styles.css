@@ -193,4 +193,8 @@ border-radius: var(--box-radius);
 		height: 100%;
 		margin-top: 20px;
 	}
+
+	.all-about-text {
+		text-align: center;
+	}
 }
