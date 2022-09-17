@@ -195,8 +195,8 @@ border-radius: var(--box-radius);
 }
 	
 	.myFoto {
-		width: 80%;
-		height: 100%;		
+		max-width: auto;
+		height: auto;		
 		margin-top: -30px;
 		margin-left: 50px;
 	}
@@ -212,6 +212,12 @@ border-radius: var(--box-radius);
 
 	.fotoAbout {
 		max-width: 100%;
+	}
+
+	.name, .front-end, .text-about {
+
+		text-align: center;
+
 	}
 
 	.name, .front-end, .text-about {
