@@ -182,7 +182,7 @@ border-radius: var(--box-radius);
 @media (max-width: 650px) {
 
 	.myFoto {
-		margin-left: 50px;
+		margin-left: 45px;
 	}
 	
 }
