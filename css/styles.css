@@ -184,7 +184,37 @@ border-radius: var(--box-radius);
 
 
 
+@media (max-width: 768px) {
+	
+	.container-button {
+		margin-top: 10px;
+	}
+	.button3,
+	.button1,
+	.button2 {
+		width: 100px;
+		margin-top: 20px;
+	}
 
+	.button-link:hover {
+		text-decoration: none;
+		color: var(--second-color);
+	}
+
+	.myFoto {
+        max-width: 100%;
+		height: auto;
+		margin-top: 40px;
+  		vertical-align: middle;
+		margin-left: 0px;
+
+	}
+
+	.hello {
+		margin-right: -20px;
+	}
+	
+}
 
 
 @media (max-width: 576px) {
