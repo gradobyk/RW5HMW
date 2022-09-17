@@ -209,18 +209,21 @@ border-radius: var(--box-radius);
 		margin-top: 20px;
 	}
 
-	.all-about-text {
-		text-align: center;
-		margin-left: -80px;
-	}
-
-	.button-next-text {
-		text-align: center;
-		margin-left: 120px;
-	}
-
 	.fotoAbout {
 		max-width: 500px;
 	}
+
+	.name, .front-end, .text-about {
+
+		text-align: center;
+		margin-left: -30px;
+
+	}
+
+	.button-next-text {
+		margin-right: -80px;
+
+	}
+	
 
 }
