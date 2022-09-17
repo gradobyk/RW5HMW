@@ -114,6 +114,8 @@ border-radius: var(--box-shadow);
 	.container-button {
 		margin-top: 10px;
 	}
+
+
 }
 
 @media (max-width: 576px) {
@@ -132,7 +134,13 @@ border-radius: var(--box-shadow);
 		margin-top: -30px;
 		margin-left: 45px;
 	}
-		.container-about-began {
+
+	.container-button {
+		margin-top: 0px;
+	}
+	
+	.container-about-began {
 		height: 100%;
+		margin-top: 20px;
 	}
 }
