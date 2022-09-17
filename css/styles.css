@@ -1,0 +1,138 @@
+:root {
+	--body-color: #EDEBF7;
+	--second-color: #7a6bc5;
+	--box-shadow: 10px;
+}
+
+body {
+	font-family: 'Roboto';
+	margin-left: 10px;
+}
+
+.container-about-began {
+display: block;
+margin-top: 60px;
+height: 420px;
+width: 100%;
+background: var(--body-color);
+border-radius: var(--box-shadow);
+
+}
+
+.container-project {
+	background: var(--second-color);
+	color: white;
+	text-align: center;
+	padding: 10px 10px;
+	font-size: 16px;
+	border-radius: var(--box-shadow);	
+}
+
+.container-button {
+	margin-top: 40px;
+}
+
+.button1 {
+	padding: 10px;
+	background: var(--body-color) !important;
+	color: var(--second-color);
+	text-align: center;
+	border-radius: var(--box-shadow);
+	width: 200px;
+}
+
+.button2 {
+	padding: 10px;
+	background: var(--body-color) !important;
+	color: var(--second-color);
+	text-align: center;
+	border-radius: var(--box-shadow);
+	width: 200px;
+	margin-left: 20px;
+
+}
+
+.button3 {
+	padding: 10px;
+	background: var(--body-color) !important;
+	
+	text-align: center;
+	border-radius: var(--box-shadow);
+	width: 200px;
+	margin-left: 20px;
+		
+}
+
+.button-contact {
+  text-decoration: none;
+  color: var(--second-color);
+}
+
+.myFoto {
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 400px;
+	border-radius: var(--box-shadow);
+
+}
+
+.name {
+	color: var(--second-color);
+	
+	text-align: center;
+	margin-top: 20px;
+}
+
+.front-end {
+	text-align: center;
+	opacity: 0.6;
+}
+
+
+#name-full {
+   font-weight: bold;
+}
+
+.hello {
+	padding: 30px 30px;
+}
+
+
+.container-cosial {
+	margin-top: 80px;
+	color: var(--second-color);	
+	font-size: 30px;
+	margin-bottom: 85px;
+}
+
+.cosial {
+	font-size: 24px;
+	color: var(--second-color);
+}
+
+@media (max-width: 768px) {
+	.container-button {
+		margin-top: 10px;
+	}
+}
+
+@media (max-width: 576px) {
+
+	.button3,
+	.button1,
+	.button2 {
+		width: 100px;
+		margin-top: 20px;
+	}
+	
+	.myFoto {
+		display: block;
+		width: 80%;
+		height: 100%;		
+		margin-top: -30px;
+		margin-left: 45px;
+	}
+		.container-about-began {
+		height: 100%;
+	}
+}
