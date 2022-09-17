@@ -211,7 +211,7 @@ border-radius: var(--box-radius);
 	}
 
 	.fotoAbout {
-		max-width: 420px;
+		width: 100%;
 	}
 
 	.name, .front-end, .text-about {
