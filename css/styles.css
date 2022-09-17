@@ -126,7 +126,26 @@ border-radius: var(--box-radius);
 	margin-top: 20px;
 	max-width: 550px;
 	margin-right: 40px;
+
 }
+
+@media (max-width: 1200px ) {
+
+	.all-about-text {
+		margin-left: -60px;
+	}
+
+	.button-next-text {
+		text-align: center;
+		margin-left: 0px;
+	}
+
+	.fotoAbout {
+		max-width: 450px;
+	}
+	
+}
+
 
 
 @media (max-width: 768px) {
@@ -156,10 +175,6 @@ border-radius: var(--box-radius);
 		margin-right: -20px;
 	}
 
-	.fotoAbout {
-		margin-top: 20px;
-
-	}
 
 
 }
@@ -196,5 +211,16 @@ border-radius: var(--box-radius);
 
 	.all-about-text {
 		text-align: center;
+		margin-left: -80px;
 	}
+
+	.button-next-text {
+		text-align: center;
+		margin-left: 120px;
+	}
+
+	.fotoAbout {
+		max-width: 500px;
+	}
+
 }
