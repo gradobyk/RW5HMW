@@ -118,6 +118,8 @@ border-radius: var(--box-shadow);
 	color: var(--second-color);
 }
 
+
+
 @media (max-width: 768px) {
 	
 	.container-button {
@@ -153,7 +155,6 @@ border-radius: var(--box-shadow);
 	}
 	
 	.myFoto {
-		display: block;
 		width: 80%;
 		height: 100%;		
 		margin-top: -30px;
