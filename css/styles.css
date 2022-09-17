@@ -131,7 +131,21 @@ border-radius: var(--box-radius);
 
 }
 
-@media (max-width: 1400px ) {
+@media (max-width: 1180px ) {
+
+	.myFoto {
+        max-width: 100%;
+		height: auto;
+		margin-top: 20px;
+  		vertical-align: middle;
+		margin-left: -20px;
+
+	}
+
+	.hello {
+		padding-right: 20px;
+		padding-left: 40px;
+	}
 
 	.all-about-text {
 		margin-left: -60px;
