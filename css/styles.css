@@ -2,7 +2,7 @@
 	--body-color: #EDEBF7;
 	--second-color: #7a6bc5;
 	--third-color: #ffffff; 
-	--box-shadow: 10px;
+	--box-radius: 10px;
 }
 
 body {
@@ -16,7 +16,7 @@ margin-top: 60px;
 height: 420px;
 width: 100%;
 background: var(--body-color);
-border-radius: var(--box-shadow);
+border-radius: var(--box-radius);
 
 }
 
@@ -26,7 +26,7 @@ border-radius: var(--box-shadow);
 	text-align: center;
 	padding: 10px 10px;
 	font-size: 16px;
-	border-radius: var(--box-shadow);	
+	border-radius: var(--box-radius);	
 }
 
 .container-button {
@@ -38,7 +38,7 @@ border-radius: var(--box-shadow);
 	background: var(--third-color) !important;
 	color: var(--second-color);
 	text-align: center;
-	border-radius: var(--box-shadow);
+	border-radius: var(--box-radius);
 	width: 200px;
 }
 
@@ -47,7 +47,7 @@ border-radius: var(--box-shadow);
 	background: var(--third-color) !important;
 	color: var(--second-color);
 	text-align: center;
-	border-radius: var(--box-shadow);
+	border-radius: var(--box-radius);
 	width: 200px;
 	margin-left: 20px;
 
@@ -57,18 +57,10 @@ border-radius: var(--box-shadow);
 	padding: 10px;
 	background: var(--third-color) !important;
 	text-align: center;
-	border-radius: var(--box-shadow);
+	border-radius: var(--box-radius);
 	width: 200px;
 	margin-left: 20px;
 		
-}
-
-.button1:hover, .button2:hover, .button3:hover {
-	color: var(--second-color);
-}
-
-.button1:visited {
-	color: #7a6bc5;
 }
 
 .button-contact {
@@ -80,7 +72,7 @@ border-radius: var(--box-shadow);
 	margin-top: 10px;
 	margin-left: 10px;
 	width: 400px;
-	border-radius: var(--box-shadow);
+	border-radius: var(--box-radius);
 
 }
 
@@ -118,6 +110,9 @@ border-radius: var(--box-shadow);
 	color: var(--second-color);
 }
 
+.fotoAbout {
+	border-radius: var(--box-radius);
+}
 
 
 @media (max-width: 768px) {
@@ -132,6 +127,11 @@ border-radius: var(--box-shadow);
 		margin-top: 20px;
 	}
 
+	.button-link:hover {
+		text-decoration: none;
+		color: var(--second-color);
+	}
+
 	.myFoto {
 
 		margin-top: 40px;
@@ -140,6 +140,10 @@ border-radius: var(--box-shadow);
 
 	.hello {
 		margin-right: -20px;
+	}
+
+	.fotoAbout {
+		margin-top: 20px;
 	}
 
 
@@ -153,6 +157,11 @@ border-radius: var(--box-shadow);
 		width: 100px;
 		margin-top: 20px;
 	}
+
+	.button-link:hover {
+	text-decoration: none;
+	color: var(--second-color);
+}
 	
 	.myFoto {
 		width: 80%;
