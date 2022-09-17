@@ -195,10 +195,9 @@ border-radius: var(--box-radius);
 }
 	
 	.myFoto {
-		max-width: 100%;
+		max-width: auto;
 		height: auto;		
 		margin-top: -30px;
-		margin-left: 50px;
 	}
 
 	.container-button {
