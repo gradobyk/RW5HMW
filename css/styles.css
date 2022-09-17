@@ -211,7 +211,7 @@ border-radius: var(--box-radius);
 	}
 
 	.fotoAbout {
-		max-width: 400px;
+		max-width: 420px;
 	}
 
 	.name, .front-end, .text-about {
@@ -223,7 +223,6 @@ border-radius: var(--box-radius);
 
 	.button-next-text {
 		margin-top: 20px;
-		margin-left: 10px;
 
 	}
 	
