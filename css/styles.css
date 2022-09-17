@@ -64,6 +64,17 @@ border-radius: var(--box-radius);
 		
 }
 
+.button2-text {
+	
+	padding: 10px;
+	background: var(--third-color) !important;
+	color: var(--second-color);
+	text-align: center;
+	border-radius: var(--box-radius);
+	width: 200px;
+	margin-left: 20px;
+}
+
 .button-contact {
   text-decoration: none;
   color: var(--second-color);
@@ -71,7 +82,7 @@ border-radius: var(--box-radius);
 
 .myFoto {
 	margin-top: 10px;
-	margin-left: 10px;
+	margin-left: 80px;
 	width: 400px;
 	border-radius: var(--box-radius);
 
@@ -91,7 +102,8 @@ border-radius: var(--box-radius);
 }
 
 .hello {
-	padding: 60px 120px;
+	padding: 80px 180px;
+	
 }
 
 
@@ -155,47 +167,23 @@ border-radius: var(--box-radius);
 	.button-next-text {
 		margin-left: 0px;
 	}
-
 	.fotoAbout {
-		max-width: 500px;
+		max-width: 70%;
+		display: block;
+		margin-left: 120px;
+	}
+	.container-page-about {
+		text-align: center;
+	}
+
+	.button-next-text {
+		margin-left: 210px;
 	}
 	
 }
 
 
-@media (max-width: 768px) {
-	
-	.container-button {
-		margin-top: 10px;
-	}
-	.button3,
-	.button1,
-	.button2 {
-		width: 100px;
-		margin-top: 20px;
-	}
 
-	.button-link:hover {
-		text-decoration: none;
-		color: var(--second-color);
-	}
-
-	.myFoto {
-        max-width: 100%;
-		height: auto;
-		margin-top: 40px;
-  		vertical-align: middle;
-		margin-left: 0px;
-
-	}
-
-	.hello {
-		margin-right: -20px;
-	}
-		.fotoAbout {
-		max-width: 450px;
-	}
-}
 
 
 
@@ -217,6 +205,7 @@ border-radius: var(--box-radius);
 		max-width: auto;
 		height: auto;		
 		margin-top: -30px;
+		margin-left: 0px;
 	}
 
 	.container-button {
@@ -238,15 +227,22 @@ border-radius: var(--box-radius);
 
 	}
 
-	.name, .front-end, .text-about {
-
+	.all-about-text {
+		margin-top: -20px;
 		text-align: center;
-
+		padding-left: 120px;
+		padding-right: 0px;
+	}
+    .name-a {
+		font-size: 36px;
+	}
+	.text-about-a {
+		font-size: 18px;
 	}
 
-	.button-next-text {
-		margin-top: 20px;
-
+	.button2-text {
+		text-align: center;
+		margin-left: 40px;
 	}
 	
 
